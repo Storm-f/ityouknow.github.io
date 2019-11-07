@@ -9,8 +9,8 @@
 title:  F的个人博客
 description: 突然想搭一个博客。
 keyword: 比较突然 
-url: ''
-baseurl: https://storm-f.github.io
+url: 'https://storm-f.github.io'
+baseurl: ''
 
 
 #repository: storm-f/storm-f.github.io
