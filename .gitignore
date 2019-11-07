@@ -1,7 +1,6 @@
-_site
-_drafts
-.sass-cache
-.jekyll-metadata
-.idea
+.DS_Store
+*/.DS_Store
 
-_posts/2019/2019-10-08-ali-interview.md
+node_modules
+
+_site
