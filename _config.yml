@@ -13,8 +13,8 @@ url: ''
 baseurl: https://storm-f.github.io
 
 
-repository: storm-f/storm-f.github.io
-github_url: https://github.com/storm-f
+#repository: storm-f/storm-f.github.io
+#github_url: https://github.com/storm-f
 
 # Navigation links
 nav:
