@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS position详解
+title: CSS position简介
 date: 2019-11-19
 categories: 前端
 tags: CSS
@@ -14,15 +14,11 @@ CSS 有两个最重要的基本属性，前端开发必须掌握：**display** �
 ### 一、position属性的作用
 position属性用来指定一个元素在网页上的位置，一共有5中定位方式，即position属性主要有五个值。
 
-1.static
-
-2.relative
-
-3.fixed
-
-4.absolute
-
-5.sticky
+1. static
+2. relative
+3. fixed
+4. absolute
+5. sticky
 
 最后一个sticky是2017年浏览器才支持的。
 
