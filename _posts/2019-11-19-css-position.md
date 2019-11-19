@@ -5,13 +5,11 @@ date: 2019-11-19
 categories: 前端
 tags: CSS
 ---
-本文转自[http://www.ruanyifeng.com/blog/2019/11/css-position.html](http://www.ruanyifeng.com/blog/2019/11/css-position.html)
-
 CSS 有两个最重要的基本属性，前端开发必须掌握：**display** 和 **position**。
 
-display属性指定网页的布局。两个重要的布局：弹性布局flex和网格布局grid。
-
 本文介绍非常有用的position属性。
+
+本文转自[http://www.ruanyifeng.com/blog/2019/11/css-position.html](http://www.ruanyifeng.com/blog/2019/11/css-position.html)
 
 ### 一、position属性的作用
 position属性用来指定一个元素在网页上的位置，一共有5中定位方式，即position属性主要有五个值。
