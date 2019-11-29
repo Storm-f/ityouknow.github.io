@@ -2,7 +2,7 @@
 layout: post
 title: CentOS7上安装Docker
 date: 2019-11-29
-categories: CentOS7,Docker
+categories: Linux,CentOS7,Docker
 tags: Docker
 ---
 本文介绍如何在Centos7上安装Docker。

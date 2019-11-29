@@ -2,7 +2,7 @@
 layout: post
 title: CentOS7上挂载硬盘
 date: 2019-11-28
-categories: CentOS7
+categories: Linux,CentOS7
 tags: CentOS7
 ---
 本文介绍如何在Centos7上挂载硬盘。
