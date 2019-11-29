@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 查看Linux版本信息
-date: 2019-11-28
+date: 2019-11-27
 categories: Linux
 tags: Linux
 ---
