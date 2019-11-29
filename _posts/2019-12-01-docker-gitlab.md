@@ -16,3 +16,4 @@ $ docker search gitlab
 $ docker pull twang2218/gitlab-ce-zh:latest
 ```
 ![](../docker-gitlab-1.jpg)
+![](../docker-gitlab-2.jpg)
