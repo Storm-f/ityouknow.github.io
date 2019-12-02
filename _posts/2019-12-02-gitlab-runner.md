@@ -67,3 +67,41 @@ CI和CD一起可以加快团队为客户和利益相关者交付成果的速度�
 * **容器注册表**：内置的容器注册表，用于存储，共享和使用容器镜像。
 * **受保护的变量**：在部署期间使用受每个环境保护的变量安全地存储和使用机密信息。
 * **环境**：定义多个环境，包括临时Review Apps请参阅每个环境的部署历史记录。
+
+## GitLab是整个DevOps生命周期的一个应用程序
+
+![](../gitlab-runner-3.png)
+* 使用GitLab Runners构建应用程序
+* 运行单元和集成测试以检查代码是否有效
+* 在合并到稳定版之前，使用Review Apps查看开发分支的实时预览
+* 部署到暂存和生产等多个环境，并支持高级功能（例如canary deployments）
+* 监视应用程序的性能和状态
+
+## 与GitLab完全集成
+
+![](../gitlab-runner-4.png)
+
+* **快速的项目设置** 单击添加项目，所有挂钩都通过GitLab API自动设置。
+* **合并请求集成** 在GitLab的合并请求中查看每个构建的状态。
+
+## 架构
+
+![](../gitlab-runner-5.png)
+
+**GitLab CI / CD** 是GitLab的一部分，GitLab是具有API的Web应用程序，该API将其状态存储在数据库中。除了GitLab的所有功能之外，它还管理项目/构建并提供一个不错的用户界面。
+
+**GitLab Runner** 是一个处理构建的应用程序。它可以单独部署，并通过API与GitLab CI / CD一起使用。
+
+为了运行测试，至少需要一个 **GitLab** 实例和一个 **GitLab Runner**。
+
+## GitLab Runner
+
+![](../gitlab-runner-6.png)
+
+要执行实际的构建，需要安装用Go编写的GitLab Runner。
+
+它可以在可以构建Go二进制文件的任何平台上运行，包括Linux，OSX，Windows，FreeBSD和Docker。
+
+它可以测试任何编程语言，包括.Net，Java，Python，C，PHP等。
+
+GitLab Runner具有许多功能，包括自动缩放，强大的Docker支持以及同时运行多个作业的能力。
