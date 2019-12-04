@@ -104,3 +104,16 @@ tags: GitLab CI/CD
 它可以测试任何编程语言，包括.Net，Java，Python，C，PHP等。
 
 GitLab Runner具有许多功能，包括自动缩放，强大的Docker支持以及同时运行多个作业的能力。
+
+## 持续集成的操作流程
+
+```flow
+st=>start: 用户登陆
+op=>operation: 登陆操作
+cond=>condition: 登陆成功 Yes or No?
+e=>end: 进入后台
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
