@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docker安装汉化的GitLab社区版和GitLab-Runner
-date: 2019-12-01
+date: 2019-12-03
 categories: Docker,GitLab,GitLab-Runner
 tags: GitLab
 ---
