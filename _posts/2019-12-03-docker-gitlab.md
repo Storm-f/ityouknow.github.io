@@ -5,7 +5,7 @@ date: 2019-12-01
 categories: Docker,GitLab,GitLab-Runner
 tags: GitLab
 ---
-本文介绍使用Docker安装汉化的GitLab社区版。
+本文介绍使用Docker安装汉化的GitLab社区版和GitLab-Runner。
 
 ## 下载GitLab镜像
 
@@ -64,3 +64,33 @@ $ docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   gitlab/gitlab-runner:latest
 ```
+
+## 注册Runner
+
+```
+$ docker exec -it gitlab-runner gitlab-ci-multi-runner register
+```
+
+![](../docker-gitlab-4.jpg)
+
+输入注册相关信息
+```
+Please enter the gitlab-ci coordinator URL:
+# 示例：http://gitlab.alibaba-inc.com/ci
+Please enter the gitlab-ci token for this runner:
+# xxxxxx
+Please enter the gitlab-ci description for this runner:
+# 示例：qd_api_runner
+Please enter the gitlab-ci tags for this runner (comma separated):
+# 示例：hwy
+Whether to run untagged builds [true/false]:
+# true
+Please enter the executor: docker, parallels, shell, kubernetes, docker-ssh, ssh, virtualbox, docker+machine, docker-ssh+machine:
+# docker
+Please enter the default Docker image (e.g. ruby:2.1):
+# maven:3-jdk-8
+```
+
+注册完成:
+
+![](../docker-gitlab-5.jpg)
