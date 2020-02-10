@@ -56,7 +56,7 @@ Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便
 服务接口调用	| Feign
 消息队列	| Kafka，RabbitMQ，ActiveMQ
 服务配置中心管理	| SpringCloud Config，Chef
-服务路由(API网关)	| SpringCloud Gateway Zuul
+服务路由(API网关)	| SpringCloud Gateway，Zuul
 服务监控	| Zabbix，Nagios，Metrice，Spectator
 全链路追踪	| Zipkin，Brave，Dapper
 服务部署 | Docker，OpenStack，Kubernetes
