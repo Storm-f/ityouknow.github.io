@@ -29,9 +29,9 @@ tags: SpringCloud
 
 [aoho SpringCloud系列文章](http://blueskykong.com/tags/Spring-Cloud/)
 
-## 开源作品
+## 开源作品 
 
-[SpringBlade微服务开发平台](https://gitee.com/smallc/SpringBlade) 
+[SpringBlade微服务开发平台](https://gitee.com/smallc/SpringBlade)
 
 [Pig微服务开发平台](https://gitee.com/log4j/pig)
 
