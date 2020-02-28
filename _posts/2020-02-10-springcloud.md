@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Spring Cloud简介
+title: SpringCloud简介
 date: 2020-02-10
-categories: Spring Cloud
-tags: Spring Cloud
+categories: SpringCloud
+tags: SpringCloud
 ---
-本文介绍Spring Cloud。
+本文介绍SpringCloud。
 
 ## 微服务
 
