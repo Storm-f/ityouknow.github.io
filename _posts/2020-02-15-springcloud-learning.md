@@ -39,4 +39,4 @@ tags: SpringCloud
 
 [open-capacity-platform 微服务能力开放平台](https://gitee.com/owenwangwen/open-capacity-platform)
 
-[纯洁的微笑 SpringCloud示例](https://github.com/ityouknow/spring-cloud-examples)
+[纯洁的微笑 SpringCloud示例](https://github.com/ityouknow/spring-cloud-examples) 
